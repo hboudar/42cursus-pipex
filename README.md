@@ -5,6 +5,11 @@ A C program for handling pipes
 This project lets you explore pipes in UNIX by implementing a program that executes shell commands through pipes.
 
 ### Getting Started
+  Clone the repository:
+# Bash
+  git clone https://github.com/Cloneg7/pipex.git
+
+### Getting Started
 Clone the repository:
 
 ### Usage
