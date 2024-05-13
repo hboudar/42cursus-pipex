@@ -9,6 +9,49 @@ This project lets you explore pipes in UNIX by implementing a program that execu
 # Bash
   git clone https://github.com/Cloneg7/pipex.git
 
+-----
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Repository</title>
+    <!-- Include Clipboard.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+    <style>
+        /* Optional styling for the copy button */
+        .copy-btn {
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <h1>Getting Started</h1>
+    <p>Clone the repository:</p>
+    <pre><code id="clone-command"># Bash
+git clone https://github.com/Cloneg7/pipex.git</code></pre>
+    <!-- Button to trigger copy -->
+    <button class="copy-btn" data-clipboard-target="#clone-command">Copy</button>
+</div>
+
+<script>
+    // Initialize Clipboard.js
+    new ClipboardJS('.copy-btn');
+</script>
+
+</body>
+</html>
+
+-----
+
 ### Getting Started
 Clone the repository:
 
