@@ -23,15 +23,6 @@ git clone https://github.com/Cloneg7/pipex.git</code></pre>
     <button class="copy-btn" onclick="copyToClipboard('#clone-command')">Copy</button>
 </div>
 
-<script>
-    function copyToClipboard(elementId) {
-        var copyText = document.querySelector(elementId);
-        var range = document.createRange();
-        range.selectNode(copyText);
-        window.getSelection().removeAllRanges();
-        window.getSelection().addRange(range);
-        document.execCommand("copy");
-        window.getSelection().removeAllRanges();
     }
 </script>
 
