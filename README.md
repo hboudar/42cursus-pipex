@@ -9,7 +9,7 @@ Clone the repository:
 
 ### Usage
 The program takes four arguments:
-<code>
+
 <pre>
 <ul>
 <li> file1: The first input file </li>
@@ -18,5 +18,5 @@ The program takes four arguments:
 <li> file2: The output file </li>
 </ul>
 </pre>
-</code>
+
 The program executes cmd1 using the content of file1 as input, pipes the output to cmd2, and saves the final output to file2.
