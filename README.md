@@ -1,5 +1,13 @@
 # pipex
-A C program for handling pipes
+This project allows you to delve into the intricacies of a UNIX mechanism you are already familiar with by implementing it in your program.
+
+### contents
+<si> I. Foreword<si>
+<si> II. Common Instructions<si>
+<si> III. Mandatory Part<si>
+<si> IV. Bonus Part<si>
+<si> V. Submission and Peer-evaluation<si>
+</si>
 
 ### Description
 This project lets you explore pipes in UNIX by implementing a program that executes shell commands through pipes.
@@ -42,9 +50,6 @@ The program executes cmd1 using the content of file1 as input, pipes the output 
 
 -----------------------------
 
-Pipex
-Summary
-This project allows you to delve into the intricacies of a UNIX mechanism you are already familiar with by implementing it in your program.
 
 Version: 3
 
