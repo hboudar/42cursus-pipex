@@ -12,10 +12,10 @@ The program takes four arguments:
 
 <pre>
 <code>
- file1: The first input file 
- cmd1: The first command 
- cmd2: The second command
- file2: The output file
+file1: The first input file
+cmd1: The first command
+cmd2: The second command
+file2: The output file
 </code>
 </pre>
 
