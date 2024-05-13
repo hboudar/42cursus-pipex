@@ -25,12 +25,6 @@ git clone https://github.com/Cloneg7/pipex.git</code></pre>
 </body>
 </html>
 
-
------
-
-### Getting Started
-Clone the repository:
-
 ### Usage
 The program takes four arguments:
 
