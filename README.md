@@ -9,12 +9,14 @@ Clone the repository:
 
 ### Usage
 The program takes four arguments:
-
+<code>
+<pre>
 <ul>
 <li> file1: The first input file </li>
 <li> cmd1: The first command </li>
 <li> cmd2: The second command </li>
 <li> file2: The output file </li>
 </ul>
-
+</pre>
+</code>
 The program executes cmd1 using the content of file1 as input, pipes the output to cmd2, and saves the final output to file2.
