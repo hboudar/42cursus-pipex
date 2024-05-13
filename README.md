@@ -20,7 +20,6 @@ This project lets you explore pipes in UNIX by implementing a program that execu
     <pre><code id="clone-command"># Bash
 git clone https://github.com/Cloneg7/pipex.git</code></pre>
     <!-- Button to trigger copy -->
-    <button class="copy-btn" onclick="copyToClipboard('#clone-command')">Copy</button>
 </div>
 
 </body>
