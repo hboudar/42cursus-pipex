@@ -23,9 +23,6 @@ git clone https://github.com/Cloneg7/pipex.git</code></pre>
     <button class="copy-btn" onclick="copyToClipboard('#clone-command')">Copy</button>
 </div>
 
-    }
-</script>
-
 </body>
 </html>
 
