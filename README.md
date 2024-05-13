@@ -4,12 +4,6 @@ A C program for handling pipes
 ### Description
 This project lets you explore pipes in UNIX by implementing a program that executes shell commands through pipes.
 
-### Getting Started
-  Clone the repository:
-# Bash
-  git clone https://github.com/Cloneg7/pipex.git
-
------
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +12,7 @@ This project lets you explore pipes in UNIX by implementing a program that execu
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone Repository</title>
     <!-- Include Clipboard.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+    <script src="git clone https://github.com/Cloneg7/pipex.git"></script>
     <style>
         /* Optional styling for the copy button */
         .copy-btn {
