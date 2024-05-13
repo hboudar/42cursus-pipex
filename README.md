@@ -14,14 +14,6 @@ This project lets you explore pipes in UNIX by implementing a program that execu
     <!-- Include Clipboard.js -->
     <script src="git clone https://github.com/Cloneg7/pipex.git"></script>
     <style>
-        /* Optional styling for the copy button */
-        .copy-btn {
-            cursor: pointer;
-            background-color: #007bff;
-            color: #fff;
-            padding: 5px 10px;
-            border: none;
-            border-radius: 5px;
         }
     </style>
 </head>
