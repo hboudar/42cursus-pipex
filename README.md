@@ -17,8 +17,7 @@ This project lets you explore pipes in UNIX by implementing a program that execu
 <div>
     <h1>Getting Started</h1>
     <p>Clone the repository:</p>
-    <pre><code id="clone-command">
-        <li>Bash</li>
+    <pre><code id="clone-command"><li>Bash</li>
 git clone https://github.com/Cloneg7/pipex.git</code></pre>
     <!-- Button to trigger copy -->
 </div>
