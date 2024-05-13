@@ -48,32 +48,4 @@ file2: The output file
 The program executes cmd1 using the content of file1 as input, pipes the output to cmd2, and saves the final output to file2.
 
 
------------------------------
-
-
-Version: 3
-
-Contents
-I. Foreword
-II. Common Instructions
-III. Mandatory Part
-IV. Bonus Part
-V. Submission and Peer-evaluation
-
-Foreword
-In this section, Cristina's amusing remark adds a touch of humor.
-
-Common Instructions
-This section outlines the common instructions that must be followed for the project, including the use of C language, adherence to the Norm, error handling, memory management, Makefile requirements, and the encouragement to create test programs.
-
-Mandatory Part
-The pipex program, as described, handles pipes. It takes four arguments: file1, cmd1, cmd2, and file2, behaving akin to a shell command < file1 cmd1 | cmd2 > file2.
-
-Examples
-Here are examples demonstrating the usage of pipex.
-
-Requirements
-This section specifies the rules the project must comply with, including the submission of a Makefile, error handling, memory management, and adherence to a specific command behavior.
-
-Bonus Part
-The bonus part includes handling multiple pipes and supporting << and >> when the first parameter is "here_doc".
+### still working on it....
