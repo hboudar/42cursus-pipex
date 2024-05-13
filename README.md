@@ -11,11 +11,6 @@ This project lets you explore pipes in UNIX by implementing a program that execu
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone Repository</title>
-    <!-- Include Clipboard.js -->
-    <script src="git clone https://github.com/Cloneg7/pipex.git"></script>
-    <style>
-        }
-    </style>
 </head>
 <body>
 
@@ -25,16 +20,24 @@ This project lets you explore pipes in UNIX by implementing a program that execu
     <pre><code id="clone-command"># Bash
 git clone https://github.com/Cloneg7/pipex.git</code></pre>
     <!-- Button to trigger copy -->
-    <button class="copy-btn" data-clipboard-target="#clone-command">Copy</button>
+    <button class="copy-btn" onclick="copyToClipboard('#clone-command')">Copy</button>
 </div>
 
 <script>
-    // Initialize Clipboard.js
-    new ClipboardJS('.copy-btn');
+    function copyToClipboard(elementId) {
+        var copyText = document.querySelector(elementId);
+        var range = document.createRange();
+        range.selectNode(copyText);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+        document.execCommand("copy");
+        window.getSelection().removeAllRanges();
+    }
 </script>
 
 </body>
 </html>
+
 
 -----
 
