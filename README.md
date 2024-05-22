@@ -45,13 +45,22 @@ The function is written in C language and thus needs the **`gcc` compiler** and 
 # 💡 Bonus Part <a name = "b"></a>
 
 > _As a <code>bonus</code> to the Mandatory requirement, the function should manage multiple commands or here_doc._
-
-	Only for the bonus program, it supports not only the single angle bracket for the STDOUT (>), but also the double angle bracket for the STDOUT (>>).
-The single angle bracket will overwite the entire file, but the double angle bracket will append after the file.
-This can be done by writing the arguments with the index 1 has the here_doc.
-In this case, the double bracket for the STDIN (<<) will be supported instead of the single bracket for the STDIN (<).
-That means, infile will be replaced and the lines that a user typed will be written on the STDIN until typing the limiter.
-When the limiter is typed, the first commands will be executed by taking all of the lines of the STDIN (except the limiter).
+	<ul>
+  <li>It supports both single (>) and double (>>) angle brackets for STDOUT.
+    <ul>
+      <li>The single angle bracket (>) overwrites the entire file.</li>
+      <li>The double angle bracket (>>) appends to the file.</li>
+    </ul>
+  </li>
+  <li>Arguments with an index of 1 will use the here_doc feature.</li>
+  <li>For STDIN, it supports the double angle bracket (<<) instead of the single angle bracket (<).
+    <ul>
+      <li>The infile will be replaced.</li>
+      <li>Lines typed by the user will be written to STDIN until a specified limiter is typed.</li>
+      <li>Once the limiter is typed, the first command will be executed using all the lines from STDIN, except the limiter.</li>
+    </ul>
+  </li>
+</ul>
 
 **1. To use the function in your code, simply include its header:**
 
