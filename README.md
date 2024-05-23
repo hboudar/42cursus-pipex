@@ -39,7 +39,7 @@ The function is written in C language and thus needs the **`gcc` compiler** and 
 #### 📋 Testing
 > _Simply run this command :_
 ```shell
-./pipex <infile> <cmd1> <cmd2> <outfile>
+make && ./pipex <infile> <cmd1> <cmd2> <outfile>
 ```
 -------
 # 💡 Bonus Part <a name = "b"></a>
@@ -71,9 +71,9 @@ The function is written in C language and thus needs the **`gcc` compiler** and 
 #### 📋 Testing
 > _Simply run this command :_
 ```shell
-./pipex_bonus <infile> <cmd1> <cmd2> ... <outfile>
+make bonus && ./pipex_bonus <infile> <cmd1> <cmd2> ... <outfile>
 ```
 > _Or :_
 ```shell
-./pipex_bonus "here_doc" <limiter> <cmd1> <cmd2> ... <outfile>
+make bonus && ./pipex_bonus "here_doc" <limiter> <cmd1> <cmd2> ... <outfile>
 ```
