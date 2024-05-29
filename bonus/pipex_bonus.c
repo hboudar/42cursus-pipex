@@ -6,7 +6,7 @@
 /*   By: hboudar <hboudar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/27 15:46:11 by hboudar           #+#    #+#             */
-/*   Updated: 2024/05/10 16:15:29 by hboudar          ###   ########.fr       */
+/*   Updated: 2024/05/29 14:38:56 by hboudar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,11 @@ static int	check_args(int ac, char *av[], t_pipex *pi)
 
 int	main(int ac, char **av, char *envp[])
 {
+	int		fd_in;
+	int		fd_out;
 	t_pipex	pi;
 
+	(1) && (fd_in = dup(0), fd_out = dup(1));
 	if (check_args(ac, av, &pi))
 		return (1);
 	if (pi.here_doc)
@@ -52,5 +55,6 @@ int	main(int ac, char **av, char *envp[])
 		next_process(av[pi.i], envp, &pi);
 	last_process(ac, av, envp, &pi);
 	check_env(envp, 0);
+	(1) && (dup2(fd_in, 0), close(fd_in), dup2(fd_out, 1), close(fd_out));
 	exit(EXIT_SUCCESS);
 }
